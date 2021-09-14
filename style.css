@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1062px;
+    margin: auto;
+}
+body{
+    color: #FFFFFF;
+    font-family:'Roboto', sans-serif;
+}
+header{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0 30px 0 ;
+    
+}
+nav a{
+    margin-right: 85px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family:'Roboto', sans-serif;
+    vertical-align: middle;
+}
+.last{
+    margin: 0;
+}
+nav a:hover{
+    padding-bottom: 2px;
+ border-bottom: #FFFFFF solid 1px ;
+}
+.img:hover{
+    border: none;
+}
+nav{
+    vertical-align: middle;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 39px;
+    font-size: 64px;
+}
+.black{
+    padding-top: 230px;
+    background-image: url(images/bg-image.png);
+    text-align: center;
+    padding-bottom: 90px;
+    background-position: center;
+}
+.get{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 47px 15px 47px;
+    background-color: #00AFDB;
+    border: none;
+    margin-top: 36px;
+    margin-bottom: 183px;
+    text-decoration: none;
+    display: inline-block;
+}
+.get:hover{
+    background-color: #009CC2;
+    padding-bottom: 15px;
+}
+.button{
+    display: inline-block;
+    margin-right:30px;
+}
+h2{
+    color: #373737;
+    text-align: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.b-t{
+    color: #373737;
+    text-align: left;
+}
+span{
+    font-weight: bold;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 120px 0 132px 0;
+
+}
+.grey{
+    background-color: #F5F6F7;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    vertical-align:text-bottom;
+}
+.grey .container{
+    padding: 118px 0 142px 0;
+}
+.text{
+    color: #4E4E4E;
+    text-align: center;
+    width: 298px;
+    
+}
+h3{
+    font-size: 16px;
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+}
+.flex{
+ display: flex;
+ justify-content: space-between;
+ position:relative;
+}
+.slider{
+position: absolute;
+left: 50%;
+margin-left:-94px;
+width: 1250px;
+top: 118px;
+display: flex;
+justify-content: space-between;
+}
+.arrow{
+    color: #373737;
+    display: flex;
+    position: absolute;
+    width: 83px;
+    justify-content: space-around;
+    top: 82px;
+    right: 0;
+}
+.arrow button{
+    height: 0;
+    background:none;
+}
+.arrow img{
+    height: 18px;
+}
+.arrow img:hover{
+    opacity: 0.6;
+}
+.second-text{
+    color: #373737;
+    text-align: left;
+}
+.second-white{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 120px 0 140px 0
+}
+h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:#373737;
+    text-transform: uppercase;
+}
+.background{
+    background-image: url(images/Frame\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0 220px 0;
+}
+h5{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+input{
+    width: 340px;
+    height: 46px;
+    padding-left: 24px;
+    vertical-align: middle;
+    border: none;
+}
+input:hover{
+    border: none;
+}
+button{
+    background-color: #00AFDB;
+    width: 66px;
+    height: 46px;
+    display: inline-block;
+    border: none;
+    vertical-align: middle;
+}
+.third-white{
+    color: #373737;
+    text-align: center;
+    padding: 120px 0 180px 0;
+
+}
+.apple{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #00AFDB;
+    padding-left: 18px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.apple:hover{
+    background-color: #009CC2;
+}
+.apple:after{
+    content: url(images/icon-apple.svg);
+    display: inline-block;
+    background-color: #009CC2;
+    padding: 19px 21px 14px 21px;
+    margin-left: 21px;
+}
+.android{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #00AFDB;
+    padding-left: 18px;
+    text-decoration: none;
+}
+.android:after{
+    content: url(images/icon-android.svg);
+    display: inline-block;
+    background-color: #009CC2;
+    padding: 16px 21px 14px 21px;
+    margin-left: 21px;
+}
+.android:hover{
+    background-color: #009CC2;
+}
+.two-button{
+    margin-top: 30px;
+}
+.trhee-button a{
+text-decoration: none;
+color:#FFFFFF;
+background-color: rgba(196, 196, 196, 0.67);
+padding: 15px 20px 15px 0;
+}
+.trhee-button:hover{
+    text-decoration: none;
+}
+ .grey-a:after{
+    content: none;
+    position: absolute;
+    width: 8px;
+    height: 1px;
+    left: 65px;
+    top: 15px;
+    border: 1px solid #4E4E4E;
+}
+footer{
+    background-color: #000000;
+    padding: 60px 0 81px 0;
+}
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-a{
+    display: inline-block;
+}
+.footer-a a{
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 73px;
+    margin-bottom: 92px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    border-right: 1px solid #4E4E4E;
+}
+.footer-a .first-a{
+    padding-left: 0px;
+}
+
+.footer-a .last-a{
+    border: none;
+    padding-right: 0px;
+}
+
+.footer-img{
+    display: inline-block;
+}
+
+.footer-p p{
+    color: #818181;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-p{
+    display: inline-block;
+}
+@media (max-width: 1062px) {
+    .container{
+        max-width: 90%;
+    }
+}
+@media (max-width: 1725px) {
+    .background{
+    background-position: center;
+    }
+}
+@media (max-width: 1000px) {
+   .flex-box{
+       flex-direction: column;
+       align-items: center;
+   }
+   .second-white{
+       flex-direction: column;
+       align-items: center;
+   }
+   .second-white img{
+       margin-bottom: 50px;
+   }
+   .s2{
+       display: none;
+   }
+   .s3{
+       display: none;
+   }
+   .slider{
+       position: static;
+       max-width: 70%;
+       margin: auto;
+   }
+   .text{
+       margin-bottom: 50px;
+   }
+   .arrow{
+       display: none;
+   }
+   .container{
+    flex-direction: column;
+    align-items: center;
+}
+.footer-a{
+    margin-bottom: 50px;
+}
+.footer-logo{
+    margin-bottom: 50px;
+}
+
+}    
+@media (max-width: 700px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    h1{
+        margin-top: 50px;
+    }
+}
